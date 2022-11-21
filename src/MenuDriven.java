@@ -82,6 +82,18 @@ public class MenuDriven {
                     System.out.println(n + " is odd");
                 }
                 break;
+            case 5:
+                System.out.println("Enter the Number");
+                int z= sc.nextInt();
+                int rev=0;
+                while(z!=0)
+                {
+                    int s=z%10;
+                    rev=rev*10+s;
+                     z=z/10;
+                }
+                System.out.println("Reverse of " +z+ " is : " + rev);
+                break;
 
 
 

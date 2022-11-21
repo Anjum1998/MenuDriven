@@ -94,8 +94,11 @@ public class MenuDriven {
                 }
                 System.out.println("Reverse of " +z+ " is : " + rev);
                 break;
-
-
+            case 6:
+                break;
+            default:
+                System.out.println("Invalid Choice");
+                break;
 
         }
 

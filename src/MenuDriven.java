@@ -29,6 +29,27 @@ public class MenuDriven {
                     System.out.println(c + "is largest");
                 }
                 break;
+
+            case 2:
+                System.out.println("Enter the first Number");
+                int e= sc.nextInt();
+                System.out.println("Enter Second Number");
+                int f= sc.nextInt();
+                System.out.println("Enter Third Number");
+                int g= sc.nextInt();
+                if(e<f&&e<g)
+                {
+                    System.out.println(e+ "is smallest");
+                } else if (f<g)
+                {
+                    System.out.println(f+" is smallest");
+                }
+                else
+                {
+                    System.out.println(g + "is smallest");
+                }
+                break;
+
         }
 
         System.out.println("Do you Want to continue?1.yes 2.No");

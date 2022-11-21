@@ -70,6 +70,18 @@ public class MenuDriven {
                     System.out.println(num + "is not prime number");
                 }
                 break;
+            case 4:
+                System.out.println("Enter the Number");
+                int n= sc.nextInt();
+                if(n%2==0)
+                {
+                    System.out.println(n + " is even");
+                }
+                else
+                {
+                    System.out.println(n + " is odd");
+                }
+                break;
 
 
 
